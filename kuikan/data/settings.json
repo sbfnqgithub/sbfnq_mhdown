@@ -1,0 +1,13 @@
+{
+  "save_root": "E:/kuaikan",
+  "max_workers": 20,
+  "jpg_quality": 100,
+  "timeout": 20,
+  "retries": 3,
+  "headless": true,
+  "chrome_path": "D:\\python_contoon\\chrome-win64\\chrome.exe",
+  "chromedriver_path": "D:\\python_contoon\\chromedriver-win64\\chromedriver.exe",
+  "cookie_path": "D:\\python_contoon\\kuikan\\kuaikanmanhua.json",
+  "show_downloaded": false,
+  "allow_redownload": false
+}

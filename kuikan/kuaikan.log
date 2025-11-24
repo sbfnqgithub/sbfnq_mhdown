@@ -1,0 +1,244 @@
+11:03:41 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:03:41 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:03:44 [INFO] - 已注入 Cookie 条数：9
+11:03:46 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:03:46 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:03:47 [INFO] - [章节] 获取完成：共 697 条
+11:05:08 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:05:08 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:05:11 [INFO] - 已注入 Cookie 条数：9
+11:05:15 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:05:15 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:05:15 [INFO] - [章节] 获取完成：共 697 条
+11:08:36 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:08:36 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:08:40 [INFO] - 已注入 Cookie 条数：9
+11:08:45 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:08:45 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:08:45 [INFO] - [章节] 获取完成：共 697 条
+11:14:09 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:14:09 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:14:12 [INFO] - 已注入 Cookie 条数：9
+11:14:17 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:14:17 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:14:17 [INFO] - [章节] 获取完成：共 697 条
+11:16:22 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:16:22 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:16:26 [INFO] - 已注入 Cookie 条数：9
+11:16:30 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:16:30 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:16:30 [INFO] - [章节] 获取完成：共 697 条
+11:19:38 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:19:38 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:19:41 [INFO] - 已注入 Cookie 条数：9
+11:19:47 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:19:47 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:19:47 [INFO] - [章节] 获取完成：共 1383 条
+11:22:21 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:22:21 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:22:24 [INFO] - 已注入 Cookie 条数：9
+11:22:34 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:22:34 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:22:34 [INFO] - [章节] 获取完成：共 697 条
+11:28:13 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:28:13 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:28:16 [INFO] - 已注入 Cookie 条数：9
+11:28:18 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:28:18 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:29:19 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:29:19 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:29:22 [INFO] - 已注入 Cookie 条数：9
+11:29:24 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:29:24 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:36:33 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:36:33 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:36:36 [INFO] - 已注入 Cookie 条数：9
+11:36:39 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:36:39 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:37:57 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:37:57 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:38:00 [INFO] - 已注入 Cookie 条数：9
+11:38:02 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:38:02 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:38:32 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:38:32 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:38:35 [INFO] - 已注入 Cookie 条数：9
+11:38:37 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:38:37 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:40:24 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:40:24 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:40:27 [INFO] - 已注入 Cookie 条数：9
+11:40:35 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:40:35 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:57:13 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:57:13 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:57:17 [INFO] - 已注入 Cookie 条数：9
+11:57:22 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:57:22 [INFO] - [章节] 尝试从 NUXT 状态读取
+11:59:48 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+11:59:48 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+11:59:51 [INFO] - 已注入 Cookie 条数：9
+11:59:55 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+11:59:55 [INFO] - [章节] 尝试从 NUXT 状态读取
+12:01:57 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+12:01:57 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+12:02:00 [INFO] - 已注入 Cookie 条数：9
+12:02:03 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+12:02:03 [INFO] - [章节] 尝试从 NUXT 状态读取
+12:03:42 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+12:03:42 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+12:03:45 [INFO] - 已注入 Cookie 条数：9
+12:03:48 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+12:03:48 [INFO] - [章节] 尝试从 NUXT 状态读取
+12:05:46 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+12:05:46 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+12:05:49 [INFO] - 已注入 Cookie 条数：9
+12:05:54 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+12:05:54 [INFO] - [章节] 尝试从 NUXT 状态读取
+12:28:18 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+12:28:18 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+12:28:22 [INFO] - 已注入 Cookie 条数：9
+12:28:24 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+12:28:24 [INFO] - [章节] 尝试从 NUXT 状态读取
+12:32:16 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+12:32:16 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+12:32:19 [INFO] - 已注入 Cookie 条数：9
+12:32:27 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+12:32:27 [INFO] - [章节] 尝试从 NUXT 状态读取
+12:35:34 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+12:35:34 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+12:35:37 [INFO] - 已注入 Cookie 条数：9
+12:35:39 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+12:35:39 [INFO] - [章节] 尝试从 NUXT 状态读取
+12:35:39 [INFO] - [章节] 获取完成：共 686 条
+12:37:03 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+12:37:03 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+12:37:10 [INFO] - 已注入 Cookie 条数：9
+12:37:17 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+12:37:17 [INFO] - [章节] 尝试从 NUXT 状态读取
+12:37:17 [INFO] - [章节] 获取完成：共 686 条
+13:06:04 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+13:06:04 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+13:06:08 [INFO] - 已注入 Cookie 条数：9
+13:06:14 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+13:06:14 [INFO] - [章节] 尝试从 NUXT 状态读取
+13:06:15 [INFO] - [章节] 获取完成：共 686 条
+13:08:14 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+13:08:14 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+13:08:17 [INFO] - 已注入 Cookie 条数：9
+13:08:21 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+13:08:21 [INFO] - [章节] 尝试从 NUXT 状态读取
+13:08:21 [INFO] - [章节] 获取完成：共 686 条
+13:12:47 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+13:12:47 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+13:12:52 [INFO] - 已注入 Cookie 条数：9
+13:12:57 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+13:12:57 [INFO] - [章节] 尝试从 NUXT 状态读取
+13:12:57 [INFO] - [章节] 获取完成：共 686 条
+13:14:05 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+13:14:05 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+13:14:08 [INFO] - 已注入 Cookie 条数：9
+13:14:11 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+13:14:11 [INFO] - [章节] 尝试从 NUXT 状态读取
+13:14:11 [INFO] - [章节] 获取完成：共 686 条
+13:15:00 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+13:15:00 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+13:15:02 [INFO] - 已注入 Cookie 条数：9
+13:15:05 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+13:15:05 [INFO] - [章节] 尝试从 NUXT 状态读取
+13:15:05 [INFO] - [章节] 获取完成：共 686 条
+13:15:05 [INFO] - [下载] 开始：https://www.kuaikanmanhua.com/web/comic/755095 -> E:/kuaikan\全球诡异时代漫画｜官方在线漫画全集-快看漫画\506  第360章 高丽篇-粉丝之力！
+13:15:05 [INFO] - [图片] 打开章节页：https://www.kuaikanmanhua.com/web/comic/755095
+13:15:12 [INFO] - [图片] 共抽取 199 张
+13:15:36 [INFO] - [下载] 完成：506  第360章 高丽篇-粉丝之力！ | 共 199 张
+19:04:56 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=False
+19:04:56 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:04:59 [INFO] - 已注入 Cookie 条数：9
+19:05:05 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+19:05:05 [INFO] - [章节] 尝试从 NUXT 状态读取
+19:05:05 [INFO] - [章节] 获取完成：共 686 条
+19:05:05 [INFO] - [下载] 开始：https://www.kuaikanmanhua.com/web/comic/755095 -> E:/kuaikan\全球诡异时代漫画｜官方在线漫画全集-快看漫画\506  第360章 高丽篇-粉丝之力！
+19:05:05 [INFO] - [图片] 打开章节页：https://www.kuaikanmanhua.com/web/comic/755095
+19:05:09 [INFO] - [图片] 共抽取 199 张
+19:05:09 [INFO] - [下载] 完成：506  第360章 高丽篇-粉丝之力！ | 共 199 张
+19:07:50 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=True
+19:07:50 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:07:53 [INFO] - 已注入 Cookie 条数：9
+19:08:46 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=True
+19:08:46 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:08:49 [INFO] - 已注入 Cookie 条数：9
+19:08:52 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+19:08:52 [INFO] - [章节] 尝试从 NUXT 状态读取
+19:08:52 [INFO] - [章节] 获取完成：共 686 条
+19:08:52 [INFO] - [下载] 开始：https://www.kuaikanmanhua.com/web/comic/819947 -> E:/kuaikan\全球诡异时代漫画｜官方在线漫画全集-快看漫画\686  第539话 扶桑篇-昏迷的绘梨衣！
+19:08:52 [INFO] - [图片] 打开章节页：https://www.kuaikanmanhua.com/web/comic/819947
+19:08:56 [INFO] - [图片] 共抽取 134 张
+19:09:10 [INFO] - [下载] 完成：686  第539话 扶桑篇-昏迷的绘梨衣！ | 共 134 张
+19:09:25 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=True
+19:09:25 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:09:28 [INFO] - 已注入 Cookie 条数：9
+19:09:32 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+19:09:32 [INFO] - [章节] 尝试从 NUXT 状态读取
+19:09:32 [INFO] - [章节] 获取完成：共 686 条
+19:09:32 [INFO] - [下载] 开始：https://www.kuaikanmanhua.com/web/comic/819945 -> E:/kuaikan\全球诡异时代漫画｜官方在线漫画全集-快看漫画\685  第538话 扶桑篇-击败信长！收获满满！
+19:09:32 [INFO] - [图片] 打开章节页：https://www.kuaikanmanhua.com/web/comic/819945
+19:09:37 [INFO] - [图片] 共抽取 212 张
+19:09:51 [INFO] - [下载] 完成：685  第538话 扶桑篇-击败信长！收获满满！ | 共 212 张
+19:20:19 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=True
+19:20:19 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:20:22 [INFO] - 已注入 Cookie 条数：9
+19:20:30 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+19:25:23 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=True
+19:25:23 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:25:26 [INFO] - 已注入 Cookie 条数：9
+19:25:29 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+19:26:09 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=True
+19:26:09 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:26:12 [INFO] - 已注入 Cookie 条数：9
+19:26:16 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+19:26:16 [INFO] - [章节] 尝试从 NUXT 状态读取
+19:26:16 [INFO] - [章节] 获取完成：共 686 条
+19:26:16 [INFO] - [下载] 开始：https://www.kuaikanmanhua.com/web/comic/819945 -> E:/kuaikan\全球诡异时代\685  第538话 扶桑篇-击败信长！收获满满！
+19:26:16 [INFO] - [图片] 打开章节页：https://www.kuaikanmanhua.com/web/comic/819945
+19:26:21 [INFO] - [图片] 共抽取 212 张
+19:26:37 [INFO] - [下载] 完成：685  第538话 扶桑篇-击败信长！收获满满！ | 共 212 张
+19:37:45 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=True
+19:37:45 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:37:49 [INFO] - 已注入 Cookie 条数：9
+19:37:51 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+19:37:51 [INFO] - [章节] 尝试从 NUXT 状态读取
+19:37:52 [INFO] - [章节] 获取完成：共 686 条
+19:37:52 [INFO] - [下载] 开始：https://www.kuaikanmanhua.com/web/comic/819945 -> E:/kuaikan\全球诡异时代\685  第538话 扶桑篇-击败信长！收获满满！
+19:37:52 [INFO] - [图片] 打开章节页：https://www.kuaikanmanhua.com/web/comic/819945
+19:37:55 [INFO] - [图片] 共抽取 212 张
+19:38:13 [INFO] - [下载] 完成：685  第538话 扶桑篇-击败信长！收获满满！ | 共 212 张
+19:48:18 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=True
+19:48:18 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:48:21 [INFO] - 已注入 Cookie 条数：9
+19:48:24 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+19:48:24 [INFO] - [章节] 尝试从 NUXT 状态读取
+19:48:24 [INFO] - [章节] 获取完成：共 686 条
+19:48:24 [INFO] - [下载] 开始：https://www.kuaikanmanhua.com/web/comic/819945 -> E:/kuaikan\全球诡异时代\685  第538话 扶桑篇-击败信长！收获满满！
+19:48:24 [INFO] - [图片] 打开章节页：https://www.kuaikanmanhua.com/web/comic/819945
+19:48:28 [INFO] - [图片] 共抽取 212 张
+19:48:28 [INFO] - [下载] 完成：685  第538话 扶桑篇-击败信长！收获满满！ | 共 212 张
+19:48:47 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=True
+19:48:47 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:48:50 [INFO] - 已注入 Cookie 条数：9
+19:48:55 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+19:48:55 [INFO] - [章节] 尝试从 NUXT 状态读取
+19:48:55 [INFO] - [章节] 获取完成：共 686 条
+19:48:55 [INFO] - [下载] 开始：https://www.kuaikanmanhua.com/web/comic/819945 -> E:/kuaikan\全球诡异时代\685  第538话 扶桑篇-击败信长！收获满满！
+19:48:55 [INFO] - [图片] 打开章节页：https://www.kuaikanmanhua.com/web/comic/819945
+19:48:58 [INFO] - [图片] 共抽取 212 张
+19:48:58 [INFO] - [下载] 完成：685  第538话 扶桑篇-击败信长！收获满满！ | 共 212 张
+19:49:13 [INFO] - 初始化 KuaikanClient 参数：save_root=E:/kuaikan | workers=8 | jpg=100 | retries=3 | timeout=20s | headless=True
+19:49:13 [INFO] - 开始登录：注入 Cookie -> D:\python_contoon\kuikan\kuaikanmanhua.json
+19:49:17 [INFO] - 已注入 Cookie 条数：9
+19:49:20 [INFO] - [登录] 注入成功，登录成功 | 页面标题：全球诡异时代漫画｜官方在线漫画全集-快看漫画
+19:49:20 [INFO] - [章节] 尝试从 NUXT 状态读取
+19:49:20 [INFO] - [章节] 获取完成：共 686 条
+19:49:20 [INFO] - [下载] 开始：https://www.kuaikanmanhua.com/web/comic/819945 -> E:/kuaikan\全球诡异时代\685  第538话 扶桑篇-击败信长！收获满满！
+19:49:20 [INFO] - [图片] 打开章节页：https://www.kuaikanmanhua.com/web/comic/819945
+19:49:22 [INFO] - [图片] 共抽取 212 张
+19:49:38 [INFO] - [下载] 完成：685  第538话 扶桑篇-击败信长！收获满满！ | 共 212 张

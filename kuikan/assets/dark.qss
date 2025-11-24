@@ -1,0 +1,26 @@
+
+* { 
+  color: #e6eaf2; 
+  background-color: #0e1116; 
+  selection-background-color: #1b2330; 
+  selection-color: #e6eaf2;
+}
+QMenu, QDialog, QToolTip, QComboBox QAbstractItemView, QTreeView, QListView, QTableView {
+  background-color: #151a21; border: 1px solid #232a34;
+}
+QSplitter::handle { background-color: #232a34; }
+QLineEdit, QPlainTextEdit, QTextEdit, QSpinBox, QDoubleSpinBox, QComboBox, QFileDialog, QCheckBox, QLabel {
+  background-color: #151a21; border: 1px solid #232a34; border-radius: 6px; padding: 6px;
+}
+QPushButton {
+  background-color: #5b8cff; color: #ffffff; border-radius: 10px; padding: 8px 14px;
+}
+QPushButton:disabled { background-color: #2b3a55; color: #9aa7bd; }
+QPushButton:hover { background-color: #6a97ff; }
+QProgressBar {
+  border: 1px solid #232a34; border-radius: 6px; text-align: center; background: #151a21;
+}
+QProgressBar::chunk { background-color: #5b8cff; border-radius: 6px; }
+QHeaderView::section { background-color: #151a21; padding: 4px; border: 1px solid #232a34; }
+QTableView { gridline-color: #232a34; }
+QCheckBox::indicator { width: 18px; height: 18px; }
