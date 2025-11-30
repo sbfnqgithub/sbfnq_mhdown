@@ -19,6 +19,11 @@ class MainWindow(QMainWindow):
         self.s = AppSettings.load(settings_path)
         self.lib = Library(self.s.save_root, data_dir)
         self.adapter = KuaikanAdapter(self.s)
+        # site 管理（默认使用kuaikan以兼容现有数据）
+        # map: 下拉里显示名 -> 内部库 key（用于 Library 的命名空间）
+        self.site_map = {"快看": "kuaikan", "读漫屋": "dumawu"}
+        self.site_display = "快看"  # UI 显示名称（默认）
+        self.site_key = self.site_map[self.site_display]  # e.g. "kuaikan"
         self.current_topic = None
         self.current_chapters = []
         self.worker: DownloadWorker|None = None
@@ -31,7 +36,16 @@ class MainWindow(QMainWindow):
         self.toggleShowAll = QCheckBox("显示已下载")
         self.toggleShowAll.setChecked(self.s.show_downloaded)
         btnSettings = QPushButton("设置")
-        header.addWidget(QLabel("站点：快看"))
+        # 站点下拉：可选 “快看” / “读漫屋”
+        from PyQt6.QtWidgets import QComboBox
+        self.siteCombo = QComboBox()
+        self.siteCombo.addItems(list(self.site_map.keys()))  # ["快看","读漫屋"]
+        self.siteCombo.setCurrentText(self.site_display)
+        header.addWidget(QLabel("站点："))
+        header.addWidget(self.siteCombo)
+        # 当用户切换站点时，调用 on_site_changed 切换 adapter 与 lib 命名空间
+        self.siteCombo.currentTextChanged.connect(self.on_site_changed)
+
         header.addWidget(self.search, 1)
         header.addWidget(self.toggleShowAll)
         header.addWidget(btnSettings)
@@ -110,12 +124,46 @@ class MainWindow(QMainWindow):
         btnAddTopic.clicked.connect(self.add_topic_dialog)
         btnSetUrl.clicked.connect(self.set_topic_url_dialog)
 
+    def on_site_changed(self, display_name: str):
+        """切换站点（仅改 adapter 与 site_key，不改其它 UI 逻辑）"""
+        # 记录显示名与 key
+        self.site_display = display_name
+        self.site_key = self.site_map.get(display_name, "kuaikan")
+
+        # 只在需要时创建对应 adapter（延迟导入以减少启动时依赖）
+        if self.site_key == "kuaikan":
+            # 保持原有快看适配器
+            from core.adapters.kuaikan_adapter import KuaikanAdapter
+            self.adapter = KuaikanAdapter(self.s)
+        elif self.site_key == "dumawu":
+            # 读漫屋适配器（之前我们已把 dumawu_adapter.py 加入项目）
+            try:
+                from core.adapters.dumawu_adapter import DumawuAdapter
+            except Exception as e:
+                # 如果没找到模块，提示用户并回退到快看
+                self.log(f"[错误] 无法加载读漫屋适配器：{e}，回退到【快看】")
+                from core.adapters.kuaikan_adapter import KuaikanAdapter
+                self.adapter = KuaikanAdapter(self.s)
+                self.siteCombo.setCurrentText("快看")
+                self.site_display = "快看"
+                self.site_key = "kuaikan"
+                return
+            self.adapter = DumawuAdapter(self.s.__dict__ if hasattr(self.s, "__dict__") else self.s)
+        else:
+            # 未知站点，回退到快看
+            from core.adapters.kuaikan_adapter import KuaikanAdapter
+            self.adapter = KuaikanAdapter(self.s)
+
+        self.log(f"切换站点为：{self.site_display}（key={self.site_key}）")
+        # 刷新左侧 library 列表为对应命名空间
+        self.refresh_library()
+
     def log(self, text: str):
         self.logView.appendPlainText(text)
 
     def refresh_library(self):
         self.libraryList.clear()
-        topics = self.lib.list_topics("kuaikan")
+        topics = self.lib.list_topics(self.site_key)
         keyword = self.search.text().strip().lower()
         for t in topics:
             if keyword and keyword not in t.title.lower():
@@ -145,7 +193,7 @@ class MainWindow(QMainWindow):
         table.setRowCount(0)
 
         # 从缓存加载章节
-        cached = self.lib.get_topic_chapters("kuaikan", t.title)
+        cached = self.lib.get_topic_chapters(self.site_key, t.title)
         if cached:
             for ch in cached:  # 不再排序，保持原顺序
                 downloaded_files = int(ch.get("downloaded_files", 0))
@@ -169,7 +217,7 @@ class MainWindow(QMainWindow):
 
     def populate_chapters_cached_or_local(self, title: str):
         self.chapterTable.setRowCount(0)
-        cached = self.lib.get_topic_chapters("kuaikan", title)
+        cached = self.lib.get_topic_chapters(self.site_key, title)
         if cached:
             # 使用本地缓存的章节清单
             for ch in sorted(cached, key=lambda x: int(x.get("order", 0))):
@@ -179,7 +227,7 @@ class MainWindow(QMainWindow):
                 self._append_chapter_row(row_ch)
         else:
             # 回退：只根据本地已下载的目录来展示
-            local = self.lib.scan_chapters_local("kuaikan", title)
+            local = self.lib.scan_chapters_local(self.site_key, title)
             for name, entry in sorted(local.items(), key=lambda kv: kv[1].order):
                 self._append_chapter_row(dict(order=entry.order, episode_no="", title=name, url="",
                                               downloaded_files=entry.downloaded_files, total_files=entry.total_files))
@@ -248,7 +296,7 @@ class MainWindow(QMainWindow):
         table.setRowCount(0)
 
         # 合并本地“已下载”状态
-        local = self.lib.scan_chapters_local("kuaikan", title)
+        local = self.lib.scan_chapters_local(self.site_key, title)
 
         def downloaded_files_for(ch: dict) -> int:
             """查找本地已下载文件数量"""
@@ -276,8 +324,8 @@ class MainWindow(QMainWindow):
         self.apply_filters()
 
         # 缓存到本地：下次双击直接用缓存
-        self.lib.set_topic_chapters("kuaikan", title, chapters)
-        self.lib.upsert_topic("kuaikan", title, self.current_topic.topic_url, os.path.join(self.s.save_root, title))
+        self.lib.set_topic_chapters(self.site_key, title, chapters)
+        self.lib.upsert_topic(self.site_key, title, self.current_topic.topic_url, os.path.join(self.s.save_root, title))
 
     def apply_filters(self):
         self.refresh_library()  # 左侧也按关键词过滤
@@ -411,10 +459,10 @@ class MainWindow(QMainWindow):
         title, ok = QInputDialog.getText(self, "新增漫画", "漫画标题：")
         if not ok or not title.strip():
             return
-        url, ok2 = QInputDialog.getText(self, "新增漫画", "专题URL（快看）：")
+        url, ok2 = QInputDialog.getText(self, "新增漫画", f"专题URL（{self.site_display}）")
         if not ok2 or not url.strip():
             return
-        self.lib.upsert_topic("kuaikan", title.strip(), url.strip(), os.path.join(self.s.save_root, title.strip()))
+        self.lib.upsert_topic(self.site_key, title.strip(), url.strip(), os.path.join(self.s.save_root, title.strip()))
         self.refresh_library()
         self.log(f"已新增：{title}")
 
@@ -424,10 +472,10 @@ class MainWindow(QMainWindow):
             QMessageBox.information(self, "提示", "请先从左侧选择一个漫画，再设置URL。")
             return
         from PyQt6.QtWidgets import QInputDialog
-        url, ok = QInputDialog.getText(self, "设置URL", "专题URL（快看）：", text=self.current_topic.topic_url or "")
+        url, ok = QInputDialog.getText(self, "设置URL", f"专题URL（{self.site_display}）", text=self.current_topic.topic_url or "")
         if not ok or not url.strip():
             return
-        self.lib.upsert_topic("kuaikan", self.current_topic.title, url.strip(), os.path.join(self.s.save_root, self.current_topic.title))
+        self.lib.upsert_topic(self.site_key, self.current_topic.title, url.strip(), os.path.join(self.s.save_root, self.current_topic.title))
         self.current_topic.topic_url = url.strip()
         self.log("URL 已更新")
     def select_all_rows(self):
@@ -463,7 +511,7 @@ class MainWindow(QMainWindow):
 
         # 写入缓存（下次进来仍显示为已下载）
         if orders:
-            self.lib.mark_chapters_downloaded("kuaikan", self.current_topic.title, orders)
+            self.lib.mark_chapters_downloaded(self.site_key, self.current_topic.title, orders)
 
         # 根据“仅显示未下载”开关进行隐藏
         self.apply_filters()

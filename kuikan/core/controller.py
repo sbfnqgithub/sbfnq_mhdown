@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import List, Dict, Any
 from PyQt6.QtCore import QObject, pyqtSignal, QThread, QWaitCondition, QMutex
 
+
 class DownloadWorker(QThread):
     sigChapterStarted = pyqtSignal(dict)
     sigProgress = pyqtSignal(int, int, int)      # chapter_idx, done_pages, total_pages
