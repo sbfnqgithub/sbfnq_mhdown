@@ -1,0 +1,20 @@
+# sbfnq_mhdown - recommended Python dependencies (for Python 3.12+)
+PyQt6>=6.5
+requests>=2.31
+selenium>=4.11
+beautifulsoup4>=4.12
+lxml>=4.9
+Pillow>=9.5
+tqdm>=4.65
+webdriver-manager>=4.0.0    # optional: auto-download chromedriver
+python-dotenv>=1.0.0       # optional: manage sensitive paths/credentials
+pytest>=7.0                # optional: tests
+black>=24.0                # optional: code formatting
+flake8>=6.0                # optional: linting
+
+# Notes:
+# - If you are inside China and pip is slow, use a mirror:
+#   pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+# - After creating/updating the virtualenv, run:
+#   python -m pip install --upgrade pip
+#   pip install -r requirements.txt
